@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122396238-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122396238-1');
+  </script>
+  <title>Photo Album</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/fav.png" type="image">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/text.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron" id="title">
+  <div class="container text-center">
+    <div class="rainbow">
+      <span class="rainbow-text">Photo Album</span>
+    </div>
+    <img class="cam" src="img/cam.gif">
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Find happiness in your pictures<a href="#photo-album"><img class="arrow-down" src="img/arrow-down.gif"></a></h3><br>
+  <div class="row" id="photo-album">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <img  src="https://picsum.photos/800?random=1" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4"> 
+      <img src="https://picsum.photos/800?random=2" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4"> 
+      <img src="https://picsum.photos/800?random=3" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <img  src="https://picsum.photos/800?random=4" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4"> 
+      <img src="https://picsum.photos/800?random=5" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4"> 
+      <img src="https://picsum.photos/800?random=6" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+
+  <!--Refresh button using JavaScript function-->
+  <a href="" class="button" onclick="location.reload();">Shuffle<img class="button" src="img/camera.png">Image</a>  
+
+</div><br>
+
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>All rights reserved. Photo Album 2019.</p>
+</footer>
+
+</body>
+<script src="js/scrolldown.js"></script>
+</html>

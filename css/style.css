@@ -1,0 +1,74 @@
+body {
+	font-family: 'Pacifico', sans-serif;
+}
+
+#title {
+	background-color: #F2E6DF;
+}
+
+img.cam {
+	width: 12%;
+}
+
+img.arrow-down {
+	width: 8%;
+}
+
+@media(max-width: 768px) {
+	img.cam {
+		width: 25%;
+	}
+	img.arrow-down {
+	width: 30%;
+	}
+}
+
+.row img {
+	padding-bottom: 20px;
+}
+
+a.button {
+	color: #222222;
+	font-size: 15px;
+	transition: .3s all ease-in-out;
+}
+
+a.button:hover {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+img.button {
+	width: 8%;
+}
+
+@media(max-width: 768px) {
+	img.button {
+		width: 20%;
+	}
+}
+
+.button {
+	text-align: center;
+	-webkit-animation: zoom .8s ease-in infinite;
+	animation: zoom .8s ease-in infinite;
+	transition: all .8s ease-in-out;
+}
+
+/* Zoom Keyframes */
+@-webkit-keyframes zoom {
+  0% {transform: scale(1);}
+  50% {transform: scale(0.67);}
+  100% {transform: scale(1);}
+}
+@keyframes zoom {
+    0% {transform: scale(1);}
+  50% {transform: scale(0.67);}
+  100% {transform: scale(1);}
+}
+/*End of Zoom Keyframes */
+
+footer {
+	background-color: #F2E6DF;
+	padding: 25px;
+}
