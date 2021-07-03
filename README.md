@@ -1,5 +1,5 @@
 # photo-album
-Photo Album Web Application (HTML, CSS, JavaScript)
+Photo Album Webpage (HTML, CSS, JavaScript)
 - fetch images using picsum photos API
 
 How to run the application :
